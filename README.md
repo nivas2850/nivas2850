@@ -1,295 +1,479 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="2650" viewBox="0 0 1000 2650">
-
-  <defs>
-    <linearGradient id="headerGlow" x1="0" x2="1">
-      <stop offset="0%" stop-color="#00E5FF"/>
-      <stop offset="50%" stop-color="#7C3AED"/>
-      <stop offset="100%" stop-color="#00E5FF"/>
-    </linearGradient>
-
-    <filter id="glow">
-      <feGaussianBlur stdDeviation="3" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-
-    <style>
-      .bg {
-        fill: #000000;
-      }
-
-      .card {
-        fill: #090909;
-        stroke: #1f2937;
-        stroke-width: 1.5;
-      }
-
-      .title {
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 52px;
-        font-weight: 700;
-        fill: #ffffff;
-      }
-
-      .subtitle {
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 23px;
-        fill: #00E5FF;
-      }
-
-      .section {
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 28px;
-        font-weight: 700;
-        fill: #00E5FF;
-      }
-
-      .company {
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 21px;
-        font-weight: 700;
-        fill: #ffffff;
-      }
-
-      .role {
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 17px;
-        fill: #a78bfa;
-      }
-
-      .text {
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 16px;
-        fill: #d1d5db;
-      }
-
-      .small {
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 14px;
-        fill: #9ca3af;
-      }
-
-      .tech {
-        font-family: "Courier New", monospace;
-        font-size: 14px;
-        fill: #00E5FF;
-      }
-
-      .accent {
-        fill: #a78bfa;
-      }
-
-      .line {
-        stroke: #1f2937;
-        stroke-width: 1;
-      }
-    </style>
-  </defs>
-
-
-  <!-- BLACK BACKGROUND -->
-  <rect width="1000" height="2650" class="bg"/>
-
-
-  <!-- TOP ACCENT -->
-  <rect x="0" y="0" width="1000" height="7" fill="url(#headerGlow)"/>
-
-
-  <!-- HEADER -->
-  <text x="500" y="95" text-anchor="middle" class="title">
-    NIVAS RAMAGIRI
-  </text>
+<div align="center">
 
-  <text x="500" y="140" text-anchor="middle" class="subtitle" filter="url(#glow)">
-    FULL STACK &amp; AI ENGINEER
-  </text>
+# 👋 Hi, I'm Nivas Ramagiri
 
-  <text x="500" y="180" text-anchor="middle" class="text">
-    Java • Python • Spring Boot • FastAPI • React • Generative AI
-  </text>
+### 🚀 Full Stack & AI Engineer
 
-  <text x="500" y="208" text-anchor="middle" class="text">
-    LLMs • RAG • LangChain • AWS • Azure • Docker • Kubernetes
-  </text>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&duration=3000&pause=1000&color=00E5FF&center=true&vCenter=true&width=850&lines=Full+Stack+%26+AI+Engineer;Java+%7C+Python+%7C+Spring+Boot+%7C+FastAPI;Generative+AI+%7C+LLMs+%7C+RAG+%7C+LangChain;React+%7C+Angular+%7C+TypeScript;AWS+%7C+Azure+%7C+Docker+%7C+Kubernetes;Building+Scalable+Production-Ready+Applications" alt="Typing SVG" />
 
-  <text x="500" y="250" text-anchor="middle" class="small">
-    Los Angeles, California • Open to Relocation
-  </text>
+<br><br>
 
+<a href="https://www.linkedin.com/in/nivas-ram/">
+<img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
 
-  <!-- ABOUT -->
-  <text x="60" y="335" class="section">01 / ABOUT ME</text>
+<a href="mailto:ramagirinivas26@gmail.com">
+<img src="https://img.shields.io/badge/Email-Contact_Me-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a>
 
-  <rect x="50" y="365" width="900" height="235" rx="18" class="card"/>
+<a href="https://github.com/nivas2850">
+<img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
 
-  <text x="80" y="410" class="text">
-    <tspan x="80" dy="0">
-      Full Stack &amp; AI Engineer with 5+ years of experience building
-    </tspan>
-    <tspan x="80" dy="28">
-      cloud-native and AI-powered enterprise applications across healthcare,
-    </tspan>
-    <tspan x="80" dy="28">
-      mobility and telecom.
-    </tspan>
+<br><br>
 
-    <tspan x="80" dy="42">
-      I work across backend engineering, modern web development, Generative AI,
-    </tspan>
-    <tspan x="80" dy="28">
-      Retrieval-Augmented Generation, microservices and cloud infrastructure.
-    </tspan>
+<img src="https://komarev.com/ghpvc/?username=nivas2850&style=for-the-badge&color=00bcd4" alt="Profile Views"/>
 
-    <tspan x="80" dy="42">
-      I enjoy transforming complex requirements into scalable,
-    </tspan>
-    <tspan x="80" dy="28">
-      secure and production-ready software systems.
-    </tspan>
-  </text>
+</div>
 
+---
 
-  <!-- CORE STACK -->
-  <text x="60" y="675" class="section">02 / CORE ENGINEERING STACK</text>
+# 👨‍💻 About Me
 
-  <rect x="50" y="705" width="430" height="210" rx="18" class="card"/>
+I'm a **Full Stack & AI Engineer with 5+ years of experience** building scalable, secure, cloud-native and AI-powered enterprise applications across **healthcare, mobility and telecom**.
 
-  <text x="80" y="750" class="company">SOFTWARE ENGINEERING</text>
+💻 I build backend systems using **Java, Python, Spring Boot and FastAPI**.
 
-  <text x="80" y="790" class="tech">Java • Python • SQL</text>
-  <text x="80" y="820" class="tech">Spring Boot • FastAPI</text>
-  <text x="80" y="850" class="tech">React • Angular • TypeScript</text>
-  <text x="80" y="880" class="tech">REST APIs • GraphQL • Microservices</text>
+🤖 I develop **Generative AI, Large Language Model, RAG and Agentic AI applications** using technologies such as LangChain, LangGraph, OpenAI, embeddings and vector databases.
 
+🌐 I develop modern full-stack applications using **React, Angular, TypeScript and JavaScript**.
 
-  <rect x="520" y="705" width="430" height="210" rx="18" class="card"/>
+☁️ I build and deploy cloud-native applications using **AWS, Azure, Docker and Kubernetes**.
 
-  <text x="550" y="750" class="company">AI / CLOUD</text>
+⚙️ I work with **microservices, REST APIs, distributed systems, Kafka and CI/CD pipelines**.
 
-  <text x="550" y="790" class="tech">Generative AI • LLMs • RAG</text>
-  <text x="550" y="820" class="tech">LangChain • LangGraph • OpenAI</text>
-  <text x="550" y="850" class="tech">AWS • Azure • Docker</text>
-  <text x="550" y="880" class="tech">Kubernetes • CI/CD • Kafka</text>
+🧠 I enjoy transforming complex business requirements into scalable, reliable and production-ready software solutions.
 
+📍 Based in **Los Angeles, California, USA** and open to relocation.
 
-  <!-- EXPERIENCE -->
-  <text x="60" y="995" class="section">03 / PROFESSIONAL EXPERIENCE</text>
+---
 
+# 💼 Professional Experience
 
-  <!-- CVS -->
-  <rect x="50" y="1025" width="900" height="280" rx="18" class="card"/>
+## 🏥 CVS Health
 
-  <text x="80" y="1070" class="company">CVS HEALTH</text>
-  <text x="80" y="1098" class="role">Senior Software Engineer • Jun 2024 – Present</text>
+### Senior Software Engineer
 
-  <text x="80" y="1140" class="text">
-    <tspan x="80">• Built enterprise AI applications with Python, FastAPI, React,</tspan>
-    <tspan x="100" dy="25">PostgreSQL and OpenAI APIs.</tspan>
+**June 2024 – Present**
 
-    <tspan x="80" dy="34">• Designed RAG pipelines using LangChain, embeddings, PGVector,</tspan>
-    <tspan x="100" dy="25">semantic search and prompt engineering.</tspan>
+- Developed enterprise **AI-powered healthcare applications** using Python, FastAPI, React, PostgreSQL and OpenAI APIs.
+- Designed and implemented **Retrieval-Augmented Generation (RAG)** pipelines using LangChain, OpenAI Embeddings, PGVector, semantic search and prompt engineering.
+- Built scalable **REST APIs and microservices** using FastAPI, JWT Authentication, OAuth2 and PostgreSQL.
+- Containerized applications using **Docker** and deployed scalable services using **Kubernetes**.
+- Implemented automated **CI/CD pipelines with GitHub Actions** to improve deployment reliability and release consistency.
+- Collaborated with Product Owners, Solution Architects and cross-functional engineering teams to design and deliver production-ready Generative AI solutions.
 
-    <tspan x="80" dy="34">• Developed secure REST APIs and microservices with JWT and OAuth2.</tspan>
+### Technologies
 
-    <tspan x="80" dy="34">• Deployed containerized applications using Docker, Kubernetes</tspan>
-    <tspan x="100" dy="25">and GitHub Actions CI/CD.</tspan>
-  </text>
+![Python](https://img.shields.io/badge/Python-000000?style=flat-square&logo=python)
+![FastAPI](https://img.shields.io/badge/FastAPI-000000?style=flat-square&logo=fastapi)
+![React](https://img.shields.io/badge/React-000000?style=flat-square&logo=react)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-000000?style=flat-square&logo=postgresql)
+![OpenAI](https://img.shields.io/badge/OpenAI-000000?style=flat-square&logo=openai)
+![Docker](https://img.shields.io/badge/Docker-000000?style=flat-square&logo=docker)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-000000?style=flat-square&logo=kubernetes)
 
+---
 
-  <!-- RESEARCH -->
-  <rect x="50" y="1335" width="900" height="220" rx="18" class="card"/>
+## 🧠 AI Research & Collaboration Hub
 
-  <text x="80" y="1380" class="company">AI RESEARCH &amp; COLLABORATION HUB</text>
-  <text x="80" y="1408" class="role">Research Assistant • Jan 2024 – May 2024</text>
+### Research Assistant
 
-  <text x="80" y="1450" class="text">
-    <tspan x="80">• Evaluated NLP and Generative AI outputs across multi-million-record</tspan>
-    <tspan x="100" dy="25">datasets using Python, Pandas, NumPy and SQL.</tspan>
+**January 2024 – May 2024**
 
-    <tspan x="80" dy="34">• Developed ML evaluation pipelines using MLflow and transformers.</tspan>
+- Evaluated **NLP and Generative AI outputs** across multi-million-record datasets using Python, Pandas, NumPy and SQL.
+- Implemented structured model evaluation and error categorization workflows.
+- Improved model evaluation consistency while reducing manual validation effort.
+- Developed machine learning evaluation pipelines using **Python, MLflow and Transformer models**.
+- Conducted A/B testing and model benchmarking using **Precision, Recall, F1-score and BLEU metrics**.
+- Supported reproducible and PII-safe AI experimentation across research teams.
 
-    <tspan x="80" dy="34">• Performed model benchmarking with precision, recall, F1 and BLEU.</tspan>
-  </text>
+### Technologies
 
+![Python](https://img.shields.io/badge/Python-000000?style=flat-square&logo=python)
+![MLflow](https://img.shields.io/badge/MLflow-000000?style=flat-square&logo=mlflow)
+![Pandas](https://img.shields.io/badge/Pandas-000000?style=flat-square&logo=pandas)
+![NumPy](https://img.shields.io/badge/NumPy-000000?style=flat-square&logo=numpy)
+![SQL](https://img.shields.io/badge/SQL-000000?style=flat-square)
+![AI](https://img.shields.io/badge/Generative_AI-000000?style=flat-square)
 
-  <!-- VW -->
-  <rect x="50" y="1585" width="900" height="260" rx="18" class="card"/>
+---
 
-  <text x="80" y="1630" class="company">VOLKSWAGEN GROUP TECHNOLOGY SOLUTIONS</text>
-  <text x="80" y="1658" class="role">Software Engineer • Dec 2021 – Jul 2023</text>
+## 🚘 Volkswagen Group Technology Solutions
 
-  <text x="80" y="1700" class="text">
-    <tspan x="80">• Built mobility applications using Angular, TypeScript, Node.js,</tspan>
-    <tspan x="100" dy="25">Java Spring Boot and REST APIs.</tspan>
+### Software Engineer
 
-    <tspan x="80" dy="34">• Designed microservices processing 1M+ telemetry events daily.</tspan>
+**December 2021 – July 2023**
 
-    <tspan x="80" dy="34">• Built event-driven systems with Kafka, Docker and Kubernetes.</tspan>
+- Developed full-stack mobility platform features using **Angular, TypeScript, Node.js, Java, Spring Boot and REST APIs**.
+- Integrated frontend dashboards with backend microservices and telemetry processing pipelines.
+- Developed scalable microservices processing **1+ million telemetry events daily**.
+- Built event-driven systems using **Apache Kafka and Spring Boot**.
+- Implemented containerized microservices using **Docker and Kubernetes**.
+- Worked with **AWS ECS and Amazon S3** for cloud-native application deployment.
+- Automated CI/CD workflows using **GitHub Actions and Jenkins**.
+- Used Terraform to automate cloud infrastructure provisioning and deployment processes.
 
-    <tspan x="80" dy="34">• Automated deployments using GitHub Actions, Jenkins and Terraform.</tspan>
-  </text>
+### Technologies
 
+![Java](https://img.shields.io/badge/Java-000000?style=flat-square&logo=openjdk)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-000000?style=flat-square&logo=springboot)
+![Angular](https://img.shields.io/badge/Angular-000000?style=flat-square&logo=angular)
+![TypeScript](https://img.shields.io/badge/TypeScript-000000?style=flat-square&logo=typescript)
+![Kafka](https://img.shields.io/badge/Kafka-000000?style=flat-square&logo=apachekafka)
+![AWS](https://img.shields.io/badge/AWS-000000?style=flat-square&logo=amazonwebservices)
+![Docker](https://img.shields.io/badge/Docker-000000?style=flat-square&logo=docker)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-000000?style=flat-square&logo=kubernetes)
 
-  <!-- VERIZON -->
-  <rect x="50" y="1875" width="900" height="225" rx="18" class="card"/>
+---
 
-  <text x="80" y="1920" class="company">VERIZON</text>
-  <text x="80" y="1948" class="role">Software Engineer • Jan 2020 – Nov 2021</text>
+## 📡 Verizon
 
-  <text x="80" y="1990" class="text">
-    <tspan x="80">• Developed telecom backend services using Java, Spring Boot,</tspan>
-    <tspan x="100" dy="25">REST APIs and Oracle SQL.</tspan>
+### Software Engineer
 
-    <tspan x="80" dy="34">• Built Angular and JavaScript customer dashboards.</tspan>
+**January 2020 – November 2021**
 
-    <tspan x="80" dy="34">• Supported CI/CD using Jenkins, Maven, Git and Azure DevOps.</tspan>
-  </text>
+- Developed telecom backend services using **Java, Spring Boot, REST APIs, Oracle SQL and Git**.
+- Implemented billing data processing modules and supported production issue resolution.
+- Built customer dashboards using **Angular, JavaScript, HTML5, CSS3, Bootstrap and Node.js**.
+- Integrated frontend applications with Spring Boot backend services.
+- Supported CI/CD deployment processes using **Jenkins, Maven, Git and Azure DevOps**.
+- Optimized SQL queries and backend application logic to improve system performance.
 
+### Technologies
 
-  <!-- PROJECT WORK -->
-  <text x="60" y="2180" class="section">04 / FEATURED ENGINEERING WORK</text>
+![Java](https://img.shields.io/badge/Java-000000?style=flat-square&logo=openjdk)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-000000?style=flat-square&logo=springboot)
+![Angular](https://img.shields.io/badge/Angular-000000?style=flat-square&logo=angular)
+![JavaScript](https://img.shields.io/badge/JavaScript-000000?style=flat-square&logo=javascript)
+![Oracle](https://img.shields.io/badge/Oracle_SQL-000000?style=flat-square&logo=oracle)
+![Jenkins](https://img.shields.io/badge/Jenkins-000000?style=flat-square&logo=jenkins)
 
-  <rect x="50" y="2210" width="430" height="190" rx="18" class="card"/>
+---
 
-  <text x="80" y="2255" class="company">ENTERPRISE GENAI &amp; RAG</text>
+# 🚀 Featured Projects
 
-  <text x="80" y="2295" class="text">
-    <tspan x="80">LLM-powered enterprise applications</tspan>
-    <tspan x="80" dy="26">Semantic search &amp; embeddings</tspan>
-    <tspan x="80" dy="26">LangChain &amp; PGVector</tspan>
-    <tspan x="80" dy="26">FastAPI &amp; PostgreSQL</tspan>
-  </text>
+## 🤖 Enterprise GenAI RAG Assistant
 
+An enterprise AI assistant designed to retrieve information from documents and generate accurate, context-aware responses using **Retrieval-Augmented Generation**.
 
-  <rect x="520" y="2210" width="430" height="190" rx="18" class="card"/>
+### Highlights
 
-  <text x="550" y="2255" class="company">CLOUD-NATIVE SYSTEMS</text>
+- Document ingestion and processing
+- Intelligent text chunking
+- Vector embeddings
+- Semantic search
+- Retrieval-Augmented Generation
+- LLM-powered question answering
+- Source-aware responses
+- FastAPI backend services
+- Vector database integration
+- Docker-based deployment
 
-  <text x="550" y="2295" class="text">
-    <tspan x="550">Microservices architecture</tspan>
-    <tspan x="550" dy="26">Kafka event processing</tspan>
-    <tspan x="550" dy="26">Docker &amp; Kubernetes</tspan>
-    <tspan x="550" dy="26">AWS &amp; CI/CD automation</tspan>
-  </text>
+### Tech Stack
 
+![Python](https://img.shields.io/badge/Python-000000?style=for-the-badge&logo=python)
+![FastAPI](https://img.shields.io/badge/FastAPI-000000?style=for-the-badge&logo=fastapi)
+![LangChain](https://img.shields.io/badge/LangChain-000000?style=for-the-badge)
+![OpenAI](https://img.shields.io/badge/OpenAI-000000?style=for-the-badge&logo=openai)
+![RAG](https://img.shields.io/badge/RAG-000000?style=for-the-badge)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-000000?style=for-the-badge&logo=postgresql)
+![Docker](https://img.shields.io/badge/Docker-000000?style=for-the-badge&logo=docker)
 
-  <!-- CERTIFICATION -->
-  <text x="60" y="2480" class="section">05 / CERTIFICATION &amp; EDUCATION</text>
+---
 
-  <text x="80" y="2535" class="company">
-    AWS Certified Developer
-  </text>
-  <text x="80" y="2565" class="small">
-    Amazon Web Services • Valid through 2029
-  </text>
+## 🤖 Agentic AI Workflow Platform
 
-  <text x="80" y="2610" class="company">
-    Master of Science in Computer Science
-  </text>
-  <text x="80" y="2638" class="small">
-    University of Alabama at Birmingham • GPA 3.70 / 4.00
-  </text>
+AI-powered workflow platform designed around **LLM orchestration, tool calling, intelligent task execution and workflow automation**.
 
-</svg>
+### Highlights
+
+- LLM-powered workflows
+- Agentic AI architecture
+- Prompt orchestration
+- Tool calling
+- Multi-step task execution
+- REST API integration
+- Cloud-ready architecture
+- Containerized deployment
+
+### Tech Stack
+
+![Python](https://img.shields.io/badge/Python-000000?style=for-the-badge&logo=python)
+![FastAPI](https://img.shields.io/badge/FastAPI-000000?style=for-the-badge&logo=fastapi)
+![LangGraph](https://img.shields.io/badge/LangGraph-000000?style=for-the-badge)
+![LangChain](https://img.shields.io/badge/LangChain-000000?style=for-the-badge)
+![OpenAI](https://img.shields.io/badge/OpenAI-000000?style=for-the-badge&logo=openai)
+![Docker](https://img.shields.io/badge/Docker-000000?style=for-the-badge&logo=docker)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-000000?style=for-the-badge&logo=kubernetes)
+
+---
+
+## 📊 End-to-End Machine Learning Pipeline
+
+Production-oriented machine learning architecture covering the complete ML lifecycle.
+
+### Workflow
+
+**Data Collection → Data Validation → Feature Engineering → Model Training → Model Evaluation → MLflow Tracking → API Deployment → Docker / Cloud**
+
+### Highlights
+
+- Automated data processing
+- Feature engineering
+- Model training
+- Model evaluation
+- Experiment tracking
+- Model versioning
+- FastAPI inference service
+- Dockerized deployment
+
+### Tech Stack
+
+![Python](https://img.shields.io/badge/Python-000000?style=for-the-badge&logo=python)
+![MLflow](https://img.shields.io/badge/MLflow-000000?style=for-the-badge&logo=mlflow)
+![Pandas](https://img.shields.io/badge/Pandas-000000?style=for-the-badge&logo=pandas)
+![NumPy](https://img.shields.io/badge/NumPy-000000?style=for-the-badge&logo=numpy)
+![FastAPI](https://img.shields.io/badge/FastAPI-000000?style=for-the-badge&logo=fastapi)
+![Docker](https://img.shields.io/badge/Docker-000000?style=for-the-badge&logo=docker)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-000000?style=for-the-badge&logo=postgresql)
+
+---
+
+## 🌐 Full Stack Enterprise Application
+
+Cloud-native full-stack application built using modern frontend technologies, scalable backend APIs and secure authentication.
+
+### Highlights
+
+- Responsive frontend
+- REST API architecture
+- Authentication and authorization
+- Microservices architecture
+- Database integration
+- CI/CD automation
+- Docker deployment
+- Cloud-native architecture
+
+### Tech Stack
+
+![Java](https://img.shields.io/badge/Java-000000?style=for-the-badge&logo=openjdk)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-000000?style=for-the-badge&logo=springboot)
+![React](https://img.shields.io/badge/React-000000?style=for-the-badge&logo=react)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-000000?style=for-the-badge&logo=postgresql)
+![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens)
+![Docker](https://img.shields.io/badge/Docker-000000?style=for-the-badge&logo=docker)
+![AWS](https://img.shields.io/badge/AWS-000000?style=for-the-badge&logo=amazonwebservices)
+
+---
+
+# 🛠️ Technical Skills
+
+## 💻 Programming Languages
+
+<p>
+<img src="https://img.shields.io/badge/Java-000000?style=for-the-badge&logo=openjdk&logoColor=ED8B00"/>
+<img src="https://img.shields.io/badge/Python-000000?style=for-the-badge&logo=python&logoColor=3776AB"/>
+<img src="https://img.shields.io/badge/SQL-000000?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/TypeScript-000000?style=for-the-badge&logo=typescript&logoColor=3178C6"/>
+<img src="https://img.shields.io/badge/JavaScript-000000?style=for-the-badge&logo=javascript&logoColor=F7DF1E"/>
+<img src="https://img.shields.io/badge/C-000000?style=for-the-badge&logo=c"/>
+<img src="https://img.shields.io/badge/C++-000000?style=for-the-badge&logo=cplusplus"/>
+</p>
+
+---
+
+## ⚙️ Backend Engineering
+
+<p>
+<img src="https://img.shields.io/badge/Spring_Boot-000000?style=for-the-badge&logo=springboot&logoColor=6DB33F"/>
+<img src="https://img.shields.io/badge/FastAPI-000000?style=for-the-badge&logo=fastapi&logoColor=009688"/>
+<img src="https://img.shields.io/badge/Node.js-000000?style=for-the-badge&logo=nodedotjs&logoColor=339933"/>
+<img src="https://img.shields.io/badge/REST_APIs-000000?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Microservices-000000?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/GraphQL-000000?style=for-the-badge&logo=graphql&logoColor=E10098"/>
+<img src="https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens"/>
+</p>
+
+---
+
+## 🎨 Frontend Engineering
+
+<p>
+<img src="https://img.shields.io/badge/React-000000?style=for-the-badge&logo=react&logoColor=61DAFB"/>
+<img src="https://img.shields.io/badge/Angular-000000?style=for-the-badge&logo=angular&logoColor=DD0031"/>
+<img src="https://img.shields.io/badge/TypeScript-000000?style=for-the-badge&logo=typescript&logoColor=3178C6"/>
+<img src="https://img.shields.io/badge/JavaScript-000000?style=for-the-badge&logo=javascript&logoColor=F7DF1E"/>
+<img src="https://img.shields.io/badge/HTML5-000000?style=for-the-badge&logo=html5&logoColor=E34F26"/>
+<img src="https://img.shields.io/badge/CSS3-000000?style=for-the-badge&logo=css&logoColor=1572B6"/>
+</p>
+
+---
+
+## 🤖 Generative AI & Machine Learning
+
+<p>
+<img src="https://img.shields.io/badge/Generative_AI-000000?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/LLMs-000000?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/RAG-000000?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/LangChain-000000?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/LangGraph-000000?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/OpenAI-000000?style=for-the-badge&logo=openai"/>
+<img src="https://img.shields.io/badge/Agentic_AI-000000?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Prompt_Engineering-000000?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Semantic_Search-000000?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Vector_Databases-000000?style=for-the-badge"/>
+</p>
+
+---
+
+## ☁️ Cloud & DevOps
+
+<p>
+<img src="https://img.shields.io/badge/AWS-000000?style=for-the-badge&logo=amazonwebservices&logoColor=FF9900"/>
+<img src="https://img.shields.io/badge/Azure-000000?style=for-the-badge&logo=microsoftazure&logoColor=0078D4"/>
+<img src="https://img.shields.io/badge/Docker-000000?style=for-the-badge&logo=docker&logoColor=2496ED"/>
+<img src="https://img.shields.io/badge/Kubernetes-000000?style=for-the-badge&logo=kubernetes&logoColor=326CE5"/>
+<img src="https://img.shields.io/badge/Jenkins-000000?style=for-the-badge&logo=jenkins&logoColor=D24939"/>
+<img src="https://img.shields.io/badge/GitHub_Actions-000000?style=for-the-badge&logo=githubactions&logoColor=2088FF"/>
+<img src="https://img.shields.io/badge/Azure_DevOps-000000?style=for-the-badge&logo=azuredevops&logoColor=0078D7"/>
+<img src="https://img.shields.io/badge/Terraform-000000?style=for-the-badge&logo=terraform&logoColor=844FBA"/>
+<img src="https://img.shields.io/badge/Linux-000000?style=for-the-badge&logo=linux&logoColor=FCC624"/>
+</p>
+
+---
+
+## 🗄️ Databases & Data Technologies
+
+<p>
+<img src="https://img.shields.io/badge/PostgreSQL-000000?style=for-the-badge&logo=postgresql&logoColor=4169E1"/>
+<img src="https://img.shields.io/badge/Oracle_SQL-000000?style=for-the-badge&logo=oracle&logoColor=F80000"/>
+<img src="https://img.shields.io/badge/MySQL-000000?style=for-the-badge&logo=mysql&logoColor=4479A1"/>
+<img src="https://img.shields.io/badge/MongoDB-000000?style=for-the-badge&logo=mongodb&logoColor=47A248"/>
+<img src="https://img.shields.io/badge/Redis-000000?style=for-the-badge&logo=redis&logoColor=DC382D"/>
+<img src="https://img.shields.io/badge/Snowflake-000000?style=for-the-badge&logo=snowflake&logoColor=29B5E8"/>
+<img src="https://img.shields.io/badge/Apache_Kafka-000000?style=for-the-badge&logo=apachekafka&logoColor=white"/>
+</p>
+
+---
+
+# 🏆 Certifications
+
+<div align="center">
+
+### ☁️ AWS Certified Developer
+
+**Amazon Web Services**
+
+**Valid through 2029**
+
+![AWS](https://img.shields.io/badge/AWS-Certified_Developer-000000?style=for-the-badge&logo=amazonwebservices&logoColor=FF9900)
+
+</div>
+
+---
+
+# 🎓 Education
+
+<div align="center">
+
+## University of Alabama at Birmingham
+
+### Master of Science in Computer Science
+
+**GPA: 3.70 / 4.00**
+
+Machine Learning • Deep Learning • Cloud Computing • Computer Security
+
+Natural Language Processing • Computer Vision • Networking • Data Science
+
+</div>
+
+---
+
+# 📊 GitHub Statistics
+
+<div align="center">
+
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=nivas2850&show_icons=true&theme=github_dark&hide_border=true&bg_color=000000&title_color=00E5FF&text_color=FFFFFF&icon_color=00E5FF" />
+
+<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nivas2850&layout=compact&theme=github_dark&hide_border=true&bg_color=000000&title_color=00E5FF&text_color=FFFFFF" />
+
+</div>
+
+<br>
+
+<div align="center">
+
+<img width="70%" src="https://streak-stats.demolab.com?user=nivas2850&theme=black-ice&hide_border=true&background=000000&ring=00E5FF&fire=00E5FF&currStreakLabel=00E5FF"/>
+
+</div>
+
+---
+
+# 📈 Contribution Activity
+
+<div align="center">
+
+<img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=nivas2850&bg_color=000000&color=00E5FF&line=00E5FF&point=FFFFFF&area=true&hide_border=true"/>
+
+</div>
+
+---
+
+# 🎯 Currently Exploring
+
+🤖 **Agentic AI & Multi-Agent Systems**
+
+🧠 **Advanced Retrieval-Augmented Generation**
+
+🔗 **LangGraph & AI Workflow Orchestration**
+
+☁️ **Cloud-Native AI Architecture**
+
+⚡ **Distributed Systems**
+
+📊 **LLM Evaluation & Observability**
+
+🚀 **Production-Grade Generative AI Systems**
+
+---
+
+# 💡 What I Enjoy Building
+
+- 🤖 Generative AI & RAG applications
+- 🧠 Intelligent AI workflow automation
+- ⚙️ Production-grade backend systems
+- 🌐 Modern full-stack applications
+- ☁️ Cloud-native microservices
+- 🔄 Event-driven distributed systems
+- 🚀 Scalable REST APIs
+- 📊 Machine learning platforms
+
+---
+
+# 🤝 Let's Connect
+
+<div align="center">
+
+### Building intelligent software that turns complex problems into scalable solutions.
+
+<br>
+
+<a href="https://www.linkedin.com/in/nivas-ram/">
+<img src="https://img.shields.io/badge/Connect_on_LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+
+<a href="mailto:ramagirinivas26@gmail.com">
+<img src="https://img.shields.io/badge/Send_Me_an_Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a>
+
+<a href="https://github.com/nivas2850">
+<img src="https://img.shields.io/badge/Follow_on_GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+
+<br><br>
+
+### ⭐ Thanks for visiting my profile!
+
+</div>
